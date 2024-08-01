@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /home
+Allow: /posts
+Allow: /post
+Allow: /about
+Allow: /contact
+
+Disallow: /
+
+Sitemap: https://your-website.com/sitemap.xml

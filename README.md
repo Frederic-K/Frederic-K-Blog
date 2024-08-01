@@ -1,21 +1,37 @@
-# Frederic-K Blog : Full-stack MERN Project
-![banner](client/src/assets/readme/FKBlog-1.webp)
+# Frederic-K Blog: Full-stack MERN Project
+![Blog Banner](client/src/assets/readme/FKBlog-1.webp)
 
-# Author
+## Author
 Frédéric KREUDER
 
-# Category
-Application : SPA / SaaS - Full-stack MERN
+## Category
+Single Page Application (SPA) / Software as a Service (SaaS) - Full-stack MERN
 
-# Resume
-Welcome to Frederic-K's Blog v.1 ! This blog is a demo and was created by Frédéric KREUDER as a personal project to practice Full Stack MERN development.
+## Overview
+Welcome to Frederic-K's Blog v1.0! This demo blog showcases full-stack MERN development skills and features a range of functionalities for both blog owners and users.
 
-This demo is a simple blog that allows the owner to create, update and delete posts. It also includes a dashboard where he can manage posts, users and comments.
+### Key Features:
+- **For Blog Owners:** Create, update, and delete posts; manage users and comments via a dashboard.
+- **For Users:** 
+  - Browse posts with carousels and lightboxes
+  - Advanced search functionality
+  - User account creation (email/password or Google sign-in)
+  - Interact with posts (comment, like)
+  - Contact form
 
-You can consult post which include carousel and lightbox, browse comments and use advanced search to find articles that interest you.
+### Technical Highlights:
+- Built with the MERN stack (MongoDB, Express, React, Node.js)
+- Frontend: React with Tailwind CSS
+- Backend: Node.js and Express
+- Database: MongoDB
+- Enhanced features: Email validation, password recovery, contact form, database optimization
 
-You can also create a account with your email and password, or sign in with Google to leave comments, like posts and comments or get in touch via the contact form.
+## Getting Started
 
-It was inspired by online courses and self-educated. Reworked, refactored, restyled and enhanced with email validation, forgot my password function, contact form, database cleaning, etc...
+To run this project locally:
 
-The blog is built using the MERN stack, which includes MongoDB, Express, React, Node.js. The front-end is built using React and Tailwind CSS, while the back-end is built using Node.js, Express and connected to MongoDB.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the application: `npm run app`
+
+This will launch both the frontend and backend servers concurrently.
